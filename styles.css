@@ -1,0 +1,726 @@
+html {
+    scrollbar-width: none;
+}
+body {
+    background-color: rgb(0, 15, 35);
+    margin: 0px;
+    direction: rtl;
+}
+#Head {
+    background-color: rgb(0, 15, 35);
+    margin-top: -10px;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+#Head > #search-area {
+    border-radius: 10px;
+    height: 35px;
+    width: 300px;
+    background-color: rgb(245, 245, 245);
+    margin-top: 12.5px;
+    margin-right: 50px;
+    font-size: 15px;
+    padding-right: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+#Head > #search-img {
+    height: 30px;
+    position: relative;
+    right: 350px;
+    top: 10px;
+    border-radius: 10px;
+}
+#Head > h4 {
+    display: inline;
+    color: white;
+    margin-right: 320px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Head > #TCMG-LOGO {
+    height: 50px;
+    margin-right: 340px;
+    position: relative;
+    top: 20px;
+}
+#Description {
+    background-color: rgb(0, 17, 40);
+    width: 100%;
+    height: 380px;
+}
+#Description > h1 {
+    font-size: 60px;
+    color: white;
+    font-weight: 500;
+    margin-right: 200px;
+}
+#Description > p {
+    color: white;
+    margin-right: 400px;
+    font-size: 20px;
+    margin-top: -40px;
+}
+#AC1 {
+    width: 100%;
+    height: 325px;
+    margin-right: 0px;
+}
+#AC1 > h1 {
+    font-size: 50px;
+    color: white;
+    margin-right: 100px;
+}
+#AC1 > p {
+    color: white;
+    font-size: 17px;
+    margin-right: 100px;
+}
+#AC1 > #btn1 {
+    background: none;
+    border-style: none;
+    margin-top: 15px;
+    margin-right: 110px;
+    color: white;
+    font-size: 17px;
+    transition: font-size 0.3s;
+}
+#AC1 > #btn1:hover {
+    font-size: 20px;
+}
+#AC1p {
+    width: 100%;
+    height: 325px;
+    margin-right: -800px;
+    margin-top: -360px;
+}
+#AC1p > h1 {
+    font-size: 50px;
+    color: white;
+    margin-right: 100px;
+}
+#AC1p > p {
+    color: white;
+    font-size: 17px;
+    margin-right: 100px;
+}
+#AC1p > #btn1 {
+    background: none;
+    border-style: none;
+    margin-top: 15px;
+    margin-right: 110px;
+    color: white;
+    font-size: 17px;
+    transition: font-size 0.3s;
+}
+#AC1p > #btn1:hover {
+    font-size: 20px;
+}
+#BTNs > #btn1 {
+    border-style: none;
+    background: none;
+    margin-right: 45%;
+}
+#BTNs > #btn1 > img {
+    height: 30px;
+    transition: height 0.3s;
+}
+#BTNs > #btn1 > img:hover {
+    height: 35px;
+}
+#BTNs > #btn2 {
+    border-style: none;
+    background: none;
+}
+#BTNs > #btn2 > img {
+    height: 30px;
+    transition: height 0.3s;
+}
+#BTNs > #btn2 > img:hover {
+    height: 35px;
+}
+#WhyChooseUs {
+    background: rgb(0, 12, 30);
+}
+#WhyChooseUs > h1 {
+    color: white;
+    margin-right: 35%;
+    font-size: 50px;
+}
+#WhyChooseUs > p {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+#WhyChooseUs > #img1 {
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 70px;
+}
+#WhyChooseUs > #p1 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 145px;
+}
+#WhyChooseUs > #img2 {
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 220px;
+}
+#WhyChooseUs > #p2 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 325px;
+}
+#WhyChooseUs > #img3 {
+    height: 350px;
+    border-radius: 10px;
+    margin-right: 220px;
+}
+#WhyChooseUs > #p3 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 280px;
+}
+#AC2 {
+    background: rgb(0, 15, 35);
+}
+#AC2 > h1 {
+    font-size: 50px;
+    color: white;
+    margin-right: 200px;
+}
+#AC2 > p {
+    color: white;
+    font-size: 18px;
+    margin-right: 200px;
+    margin-left: 55%;
+}
+#AC2 > #btn {
+    border-style: none;
+    background: none;
+    margin-right: 230px;
+    font-size: 15px;
+    color: white;
+    transition: font-size 0.3s;
+}
+#AC2 > #btn:hover {
+    font-size: 20px;
+}
+#AC2p {
+    width: 400px;
+    height: 400px;
+    overflow:scroll;
+    scrollbar-width: none;
+    margin-right: 60%;
+    margin-top: -450px;
+    scroll-snap-type: none;
+}
+#AC2p > img {
+    width: 400px;
+    border-radius: 20px;
+}
+#AC2p > h1, p {
+    color: white;
+}
+#AC2p > h1 {
+    font-size: 25px;
+}
+#AC2p > p {
+    font-size: 16px;
+}
+#AC2p > p > a {
+    color: white;
+}
+#AC2p > button {
+    background: none;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    transition: font-size 0.3s;
+}
+#AC2p > button:hover {
+    font-size: 17px;
+}
+#AC3 {
+    background: rgb(0, 12, 30);
+}
+#AC3 > h1 {
+    font-size: 50px;
+    color: white;
+    margin-right: 200px;
+}
+#AC3 > p {
+    color: white;
+    font-size: 18px;
+    margin-right: 200px;
+    margin-left: 55%;
+}
+#AC3 > #btn {
+    border-style: none;
+    background: none;
+    margin-right: 230px;
+    font-size: 15px;
+    color: white;
+    transition: font-size 0.3s;
+}
+#AC3 > #btn:hover {
+    font-size: 20px;
+}
+#AC3p {
+    width: 400px;
+    height: 400px;
+    overflow:scroll;
+    scrollbar-width: none;
+    margin-right: 60%;
+    margin-top: -450px;
+    scroll-snap-type: none;
+}
+#AC3p > img {
+    width: 400px;
+    border-radius: 20px;
+}
+#AC3p > h1, p {
+    color: white;
+}
+#AC3p > h1 {
+    font-size: 25px;
+}
+#AC3p > p {
+    font-size: 16px;
+}
+#AC3p > p > a {
+    color: white;
+}
+#AC3p > button {
+    background: none;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    transition: font-size 0.3s;
+}
+#AC3p > button:hover {
+    font-size: 17px;
+}
+#WorkTeam {
+    background: rgb(0, 15, 35);
+}
+#WorkTeam > h1 {
+    color: white;
+    margin-right: 43%;
+    font-size: 50px;
+}
+#WorkTeam > p {
+    color: white;
+    font-size: 19px;
+    text-align: center;
+}
+#WorkTeam > #img1 {
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 240px;
+}
+#WorkTeam > #p1 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 285px;
+}
+#WorkTeam > #p1p {
+    color: orangered;
+    display: inline;
+    margin-right: 315px;
+    font-size: 18px;
+}
+#WorkTeam > #img2 {
+    height: 300px;
+    border-radius: 15px;
+    margin-right: 70px;
+}
+#WorkTeam > #p2 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 195px;
+}
+#WorkTeam > #p2p {
+    color: orangered;
+    display: inline;
+    margin-right: 245px;
+    font-size: 18px;
+}
+#WorkTeam > #img3 {
+    height: 250px;
+    border-radius: 15px;
+    margin-right: 70px;
+}
+#WorkTeam > #p3 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 900;
+    margin-right: 200px;
+}
+#WorkTeam > #p3p {
+    color: orangered;
+    display: inline;
+    margin-right: 235px;
+    font-size: 18px;
+}
+#WorkTeam > #btn1 {
+    background: none;
+    border-style: none;
+    margin-right: 46%;
+    color: white;
+    font-size: 17px;
+    transition: font-size 0.3s;
+}
+#WorkTeam > #btn1:hover {
+    font-size: 20px;
+}
+#Comments {
+    background: rgb(0, 14, 33);
+    padding-top: 30px;
+}
+#Comments > h1 {
+    color: white;
+    font-size: 50px;
+    margin-right: 39%;
+}
+#Comments > img {
+    height: 300px;
+}
+#Comments > #img1 {
+    margin-right: 220px;
+    margin-bottom: -50px;
+}
+#Comments > #img3 {
+    margin-right: 260px;
+    margin-bottom: -50px;
+}
+#Comments > #img2 {
+    margin-top: -350px;
+    margin-right: 450px;
+}
+#Comments > #img4 {
+    margin-top: -350px;
+    margin-right: 260px;
+}
+#Comments > button {
+    border-style: none;
+    background: none;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin-right: 45%;
+    margin-bottom: 50px;
+    transition: font-size 0.3s, margin-right 0.3s;
+}
+#Comments > button:hover {
+    font-size: 18px;
+    margin-right: 44%;
+}
+#BD {
+    width: 100%;
+    background-color: white;
+    padding: 35px 0px;
+}
+#BD > h1 {
+    color: rgb(0, 15, 35);
+    display: inline;
+    font-size: 50px;
+}
+#BD > #txt1 {
+    margin-right: 150px;
+}
+#BD > #txt2 {
+    margin-right: 255px;
+}
+#BD > #txt3 {
+    margin-right: 255px;
+}
+#BD > #txt4 {
+    margin-right: 255px;
+}
+#BD > p {
+    color: rgb(0, 15, 35);
+    display: inline;
+    font-size: 20px;
+    font-weight: 400;
+}
+#BD > #p1 {
+    margin-right: 100px;
+}
+#BD > #p2 {
+    margin-right: 205px;
+}
+#BD > #p3 {
+    margin-right: 250px;
+}
+#BD > #p4 {
+    margin-right: 270px;
+}
+#send-message {
+    background: rgb(0, 15, 35);
+    height: 330px;
+}
+#send-message > img {
+    margin-top: -240px;
+    width: 25%;
+    margin-right: 60%;
+}
+#send-message > #Name-Box {
+    color: white;
+    height: 30px;
+    width: 20%;
+    margin-right: 50px;
+    background: none;
+    border-radius: 5px;
+    border-style: double;
+    font-size: 15px;
+}
+#send-message > #Email-Box {
+    color: white;
+    height: 30px;
+    width: 20%;
+    margin-right: 50px;
+    margin-right: 20px;
+    background: none;
+    border-radius: 5px;
+    border-style: double;
+    font-size: 15px;
+}
+#send-message > #Message-Box {
+    color: white;
+    height: 125px;
+    width: 42.5%;
+    margin-right: 50px;
+    background: none;
+    border-radius: 5px;
+    border-style: double;
+    font-size: 15px;
+    padding-top: 0px;
+}
+#send-message > button {
+    background: none;
+    border-style: none;
+    color: white;
+    margin-right: 50px;
+    font-size: 15px;
+    transition: font-size 0.3s;
+}
+#send-message > button:hover {
+    font-size: 17px;
+}
+#Companies-Logo {
+    background: white;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+    direction: ltr;
+    padding-top: 5px;
+}
+#Companies-Logo > img {
+    margin-left: 40px;
+}
+#Companies-Logo > #img1 {
+    height: 100px;
+    margin-bottom: 20px;
+}
+#Companies-Logo > #img2 {
+    height: 50px;
+    margin-bottom: 40px;
+}
+#Companies-Logo > #img3 {
+    height: 100px;
+    margin-bottom: 25px;
+}
+#Companies-Logo > #img4 {
+    height: 120px;
+    margin-bottom: 10px;
+}
+#Companies-Logo > #img5 {
+    height: 100px;
+    margin-bottom: 20px;
+}
+#New-Blogs {
+    background: rgb(0, 12, 30);
+    height: 650px;
+}
+#New-Blogs > h1 {
+    font-size: 50px;
+    color: white;
+    margin-right: 200px;
+}
+#New-Blogs > p {
+    color: white;
+    font-size: 18px;
+    margin-right: 200px;
+    margin-left: 55%;
+}
+#New-Blogs > #btn {
+    border-style: none;
+    background: none;
+    margin-right: 230px;
+    font-size: 15px;
+    color: white;
+    transition: font-size 0.3s;
+}
+#New-Blogs > #btn:hover {
+    font-size: 20px;
+}
+#New-Blogs-p {
+    width: 300px;
+    height: 500px;
+    overflow:scroll;
+    scrollbar-width: none;
+    margin-right: 65%;
+    margin-top: -550px;
+    scroll-snap-type: none;
+}
+#New-Blogs-p > img {
+    width: 300px;
+    border-radius: 20px;
+}
+#New-Blogs-p > p, li {
+    color: white;
+}
+#New-Blogs-p > h1 {
+    font-size: 25px;
+    color: rgb(126, 93, 32);
+}
+#New-Blogs-p > p {
+    font-size: 16px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#New-Blogs-p > li {
+    padding: 0px;
+    margin-top: -10px;
+}
+#New-Blogs-p > li > p {
+    display: inline;
+    font-size: 14px;
+    font-weight: 600;
+}
+#New-Blogs-p > li > #p1 {
+    margin-right: -10px;
+}
+#New-Blogs-p > li > #p2 {
+    margin-right: 10px;
+}
+#New-Blogs-p > button {
+    background: none;
+    border-style: none;
+    color: white;
+    font-size: 15px;
+    transition: font-size 0.3s;
+}
+#New-Blogs-p > button:hover {
+    font-size: 17px;
+}
+#Capital-Cities {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+#Capital-Cities > img {
+    width: 100%;
+    display: block;
+}
+#Capital-Cities > h1 {
+    display: inline;
+    margin-top: -1000px;
+    color: white;
+    font-size: 70px;
+}
+#Capital-Cities > #img1-Capital {
+    margin-top: -130px;
+    margin-right: 0px;
+}
+#Capital-Cities > #img2-Capital {
+    margin-top: -620px;
+    margin-right: -1400px;
+}
+#Capital-Cities > button {
+    display: block;
+}
+#Capital-Cities > #btn1 {
+    border-style: none;
+    background: none;
+    margin-right: 10%;
+    margin-top: -610px;
+}
+#Capital-Cities > #btn1 > img {
+    height: 50px;
+    transition: height 0.3s;
+}
+#Capital-Cities > #btn1 > img:hover {
+    height: 55px;
+}
+#Capital-Cities > #btn2 {
+    border-style: none;
+    background: none;
+    margin-right: 85%;
+    margin-top: -50px;
+}
+#Capital-Cities > #btn2 > img {
+    height: 50px;
+    transition: height 0.3s;
+}
+#Capital-Cities > #btn2 > img:hover {
+    height: 55px;
+}
+#footer > h1, p {
+    color: white;
+}
+#footer > #txt1 {
+    font-size: 60px;
+    display: inline;
+    margin-right: 100px;
+}
+#footer > #txt2 {
+    font-size: 60px;
+    display: inline;
+    margin-right: 53%;
+}
+#footer > #Ps1 {
+    margin-top: 75px;
+    margin-right: 100px;
+}
+#footer > #Ps1 > p {
+    font-weight: 600;
+    font-size: 17px;
+}
+#footer > #Ps2 {
+    margin-top: -120px;
+    margin-right: 87%;
+}
+#footer > #Ps2 > p {
+    font-weight: 600;
+    font-size: 17px;
+}
+#footer > #B1, #B2, #B3 {
+    font-weight: 600;
+    display: inline;
+}
+#footer > #B1 {
+    margin-right: 35%;
+}
+#footer > #B2 {
+    margin-right: 80px;
+}
+#footer > #B3 {
+    margin-right: 80px;
+}
+#footer > #B4 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 34.5%;
+}
+#footer > #B5 {
+    font-size: 14px;
+    font-weight: 300;
+    margin-right: 37.5%;
+}
